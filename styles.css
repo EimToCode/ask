@@ -1,11 +1,19 @@
 
 html {
-    background-image: url("../img/istockphoto-1198784356-612x612.jpg");
+    background-image: url("res/img/istockphoto-1198784356-612x612.jpg");
     background-repeat: repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a {
+    display: block;
     text-decoration: none;
-    color: antiquewhite;
+    color: rgb(0, 0, 0);
+    height: fit-content;
+    padding: 10px;
+}
+
+a:hover {
+    color:antiquewhite;
 }
 
 .btn-container {
@@ -18,8 +26,9 @@ a {
     background-color: rgb(0, 152, 142);
     width: 200px;
     height: fit-content;
-    padding: 10px;
     text-align: center;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 
 .btn-green:hover {
@@ -31,9 +40,8 @@ a {
     background-color: rgb(255, 0, 106);
     width: 200px;
     height: fit-content;
-    padding: 10px;
     text-align: center;
-
+    border-radius: 10px;
 }
 
 .btn-red:hover {
